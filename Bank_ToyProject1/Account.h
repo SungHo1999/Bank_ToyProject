@@ -12,7 +12,7 @@ public:
 	Account(const Account& ref);
 
 	int GetAccID() const;
-	void Deposit(int money); //예금
+	virtual void Deposit(int money); //예금
 	int Withdraw(int money); //출금
 	void ShowAccInfo() const;
 	void GetBalance() const; //잔액확인
